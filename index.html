@@ -3,47 +3,325 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Qinxuan Cen — AI, HCI, and game design." />
   <title>Qinxuan Cen</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <section class="hero">
-    <h1>Qinxuan Cen</h1>
-    <p>AI · HCI · VR/MR · Spatial Intelligence</p>
-    <a href="#projects">View My Work</a>
-  </section>
+  <header class="site-header">
+    <a class="logo" href="#top">QC</a>
+    <nav class="nav">
+      <a href="#education">Education</a>
+      <a href="#publications">Publications</a>
+      <a href="#internship">Internship</a>
+      <a href="#projects">Projects</a>
+      <a href="#art">Art</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
 
-  <section id="about">
-    <h2>About Me</h2>
-    <p>
-      I am an undergraduate student at Beijing University of Posts and Telecommunications,
-      interested in AI-driven human-computer interaction, VR/MR, and spatial intelligence.
-    </p>
-  </section>
+  <main id="top">
+    <section class="hero section-shell">
+      <div class="hero-copy">
+        <p class="eyebrow">AI · HCI · Game Design</p>
+        <h1>Qinxuan Cen 岑沁璇</h1>
+        <p class="hero-subtitle">
+        Hi! I'm an undergraduate student passionate about AI, human-computer interaction, and game design. I’m especially interested in human-AI collaboration and how technology can enhance creative experiences.
+        Feel free to reach out and connect!
+        </p>
+        <p class="hero-highlight">⭐ Seeking PhD opportunities for Fall 2027, Spring 2028, or Fall 2028</p>
+        <div class="hero-actions">
+            <a class="button primary" href="#education">Education</a>
+            <a class="button secondary" href="#publications">Publications</a>
+            <a class="button secondary" href="#internship">Internship</a>
+            <a class="button secondary" href="#projects">Projects</a>
+            <a class="button secondary" href="#art">Art</a>
+            <a class="button secondary" href="#contact">Contact</a>
+        </div>
+      </div>
 
-  <section id="projects">
+      <aside class="profile-card" aria-label="Profile image">
+        <div class="avatar-wrap">
+            <img src="Image/avatar.png" alt="Portrait of Qinxuan Cen" class="avatar" />
+        </div>
+
+        <p class="profile-location">📍 Yunnan, China</p>
+        </aside>
+    </section>
+
+   <section id="education" class="section-shell">
+    <p class="section-kicker">Education</p>
+    <h2>Education</h2>
+
+    <article class="card timeline-card education-card">
+        <div class="education-main">
+        <img src="Image/ntu.png" alt="NTU logo" class="school-logo" />
+        <div>
+            <h3>Nanyang Technological University (NTU), Singapore</h3>
+            <p class="muted">Master of Science in Artificial Intelligence</p>
+            <p class="muted">College of Computing and Data Science (CCDS)</p>
+        </div>
+        </div>
+        <div class="meta-block">
+        <span>2026.08 - 2027.05</span>
+        <span>Offer of Admission</span>
+        </div>
+    </article>
+
+    <article class="card timeline-card education-card">
+        <div class="education-main">
+        <img src="Image/bupt.jpg" alt="BUPT logo" class="school-logo" />
+        <div>
+            <h3>Beijing University of Posts and Telecommunications (BUPT), China</h3>
+            <p class="muted">B.Sc. (Engineering) with Honours in Intelligence Science and Technology</p>
+            <p class="muted">Joint programme with Queen Mary University of London (QMUL), United Kingdom</p>
+        </div>
+        </div>
+        <div class="meta-block">
+        <span>2022.09 - 2026.06</span>
+        <span>First-Class Honours Degree</span>
+        <span>Outstanding Graduate</span>
+        </div>
+    </article>
+    </section>
+
+    <section id="interests" class="section-shell compact-section">
+      <p class="section-kicker">Research Interests</p>
+      <h2>Research Interests</h2>
+      <div class="pill-grid">
+        <span>Artificial Intelligence</span>
+        <span>Human-Computer Interaction</span>
+        <span>Extended Reality</span>
+        <span>Game Design</span>
+      </div>
+    </section>
+
+    <section id="publications" class="section-shell">
+      <p class="section-kicker">Publications</p>
+      <h2>Publications</h2>
+      <div class="card-list">
+        <article class="card publication-card">
+          <div class="card-header">
+            <span class="venue">CHI 2026</span>
+            <span class="role">Co-first Author</span>
+          </div>
+          <h3>Roomify: Spatially-Grounded Style Transformation for Immersive Virtual Environments</h3>
+          <p>
+            Accepted at ACM CHI Conference on Human Factors in Computing Systems(CHI 2026).
+          </p>
+          <div class="media-slot">
+            <iframe
+                class="video-frame"
+                src="https://www.youtube.com/embed/zPEOMXafHVA"
+                title="Game Demo Video"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen>
+            </iframe>
+          </div>
+          <div class="link-row">
+            <a href="https://programs.sigchi.org/chi/2026/program/content/222019" target="_blank" rel="noopener">Link</a>
+            <a href="https://youtu.be/zPEOMXafHVA?si=utVqp9CIAk6nOqWQ" target="_blank" rel="noopener">Watch on YouTube</a>
+          </div>
+        </article>
+
+        <article class="card publication-card">
+          <div class="card-header">
+            <span class="venue">ICCIP 2025</span>
+            <span class="role">Third Author</span>
+          </div>
+          <h3>KG-GNN Enhanced Reasoning for Autism LLM</h3>
+          <p>
+            Accepted at The 11th International Conference on Communication and Information Processing.
+          </p>
+          <div class="media-slot">
+            <img
+                src="Image/iccipt2025.png"
+                alt="KG-GNN Enhanced Reasoning for Autism LLM preview"
+                class="media-image"
+            />
+            </div>
+          <div class="link-row">
+            <a href="https://doi.org/10.1145/3784833.3784882" target="_blank" rel="noopener">Link</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="internship" class="section-shell">
+      <p class="section-kicker">Internship</p>
+      <h2>Internship</h2>
+      <article class="card timeline-card">
+        <div>
+          <h3>Institute for Network Science and Cyberspace, Tsinghua University</h3>
+          <p class="muted">Research Assistant</p>
+          <ul>
+            <li>Developed an end-to-end system for spatially grounded style transformation.</li>
+            <li>Integrated SLAM3R reconstruction, SpatialLM semantic parsing, multimodal generation, and Unity-based VR/MR interaction prototypes.</li>
+            <li>Co-first authored the CHI 2026 paper on Roomify.</li>
+          </ul>
+        </div>
+        <div class="meta-block"><span>2025.03 – 2025.08</span></div>
+      </article>
+    </section>
+
+    <section id="projects" class="section-shell">
+    <p class="section-kicker">Projects</p>
     <h2>Projects</h2>
 
-    <div class="card">
-      <h3>Roomify</h3>
-      <p>
-        A spatially grounded style transformation system for immersive virtual environments.
-      </p>
-    </div>
+    <div class="card-grid">
+        <article class="card game-card">
+        <div class="card-header">
+            <span class="venue">CoreBlazer GamaJam · 2026</span>
+            <span class="role">🏆 Best Innovation Award</span>
+        </div>
 
-    <div class="card">
-      <h3>Digital Human Interaction System</h3>
-      <p>
-        A multimodal digital human system integrating LLM reasoning, speech processing,
-        and Unity-based interaction.
-      </p>
-    </div>
-  </section>
+        <h3>Sealed Capsule 密封舱</h3>
 
-  <section id="contact">
-    <h2>Contact</h2>
-    <p>Email: your_email@example.com</p>
-    <p>GitHub: github.com/your_username</p>
-  </section>
+        <p>
+            A 3D puzzle game developed during a game jam, where I contributed to game design,
+            programming, and art production.
+        </p>
+
+        <div class="media-slot">
+            <iframe
+            class="video-frame"
+            src="https://player.bilibili.com/player.html?bvid=BV1QAFgzcEMP"
+            title="Sealed Capsule Game Demo"
+            allowfullscreen>
+            </iframe>
+        </div>
+
+        <a href="https://www.bilibili.com/video/BV1QAFgzcEMP" target="_blank" rel="noopener">
+            Watch on Bilibili
+        </a>
+        </article>
+
+        <article class="card game-card">
+        <div class="card-header">
+            <span class="venue">G-bits Game Jam · 2024</span>
+            <span class="role">🏆 Beijing City Award</span>
+        </div>
+
+        <h3>Adrian's Dream 艾德里安的梦境</h3>
+
+        <p>
+            An award-winning 3D puzzle game created for the G-bits Game Jam, where I worked on
+            game design and art production.
+        </p>
+
+        <div class="media-slot">
+            <iframe
+            class="video-frame"
+            src="https://player.bilibili.com/player.html?bvid=BV1ajzZYREtV"
+            title="Adrian's Dream Game Demo"
+            allowfullscreen>
+            </iframe>
+        </div>
+
+        <a href="https://www.bilibili.com/video/BV1ajzZYREtV" target="_blank" rel="noopener">
+            Watch on Bilibili
+        </a>
+        </article>
+
+        <article class="card game-card">
+        <div class="card-header">
+            <span class="venue">TapTap Spotlight GameJam</span>
+            <span class="role">Game Design · Art</span>
+        </div>
+
+        <h3>Alight By Sins 罪光初现</h3>
+
+        <p>
+            A 2.5D puzzle game developed for TapTap Spotlight GameJam, where I contributed to
+            game design and art production.
+        </p>
+
+        <div class="media-slot">
+            <iframe
+            class="video-frame"
+            src="https://player.bilibili.com/player.html?bvid=BV1vtSaYmEmp"
+            title="Alight By Sins Game Demo"
+            allowfullscreen>
+            </iframe>
+        </div>
+
+        <a href="https://www.bilibili.com/video/BV1vtSaYmEmp" target="_blank" rel="noopener">
+            Watch on Bilibili
+        </a>
+        </article>
+    </div>
+            <a href="#contact">
+            Contact me for game download
+        </a>
+    </section>
+
+    <section id="skills" class="section-shell">
+        <p class="section-kicker">Honours</p>
+        <h2>Honours</h2>
+
+        <article class="card honours-card">
+            <ul class="honours-list">
+            <li>🏆 Second-Class Scholarship (2024)</li>
+            <li>🏆 Excellent Student Leader (2024, 2025)</li>
+            <li>🏆 Third-Class Scholarship (2023, 2025)</li>
+            <li>🏆 Outstanding Participant, BUPT Overseas Study Program (2024)</li>
+            <li>🏆 Active Participant in Cultural and Sports Activities (2023, 2024)</li>
+            <li>🏆 Excellent Graduate of Beijing University of Posts and Telecommunications (2026)</li>
+            </ul>
+        </article>
+    </section>
+
+    <section id="art" class="section-shell">
+    <p class="section-kicker">Art</p>
+    <h2>Art</h2>
+
+    <article class="card art-card">
+        <p class="muted">
+        I also enjoy drawing and visual creation. Here are some selected artworks.
+        </p>
+
+        <div class="art-grid">
+        <a href="Image/art1.png" target="_blank" rel="noopener">
+            <img src="Image/art1.png" alt="Artwork 1" />
+        </a>
+        <a href="Image/art2.png" target="_blank" rel="noopener">
+            <img src="Image/art2.png" alt="Artwork 2" />
+        </a>
+        <a href="Image/art3.png" target="_blank" rel="noopener">
+            <img src="Image/art3.png" alt="Artwork 3" />
+        </a>
+        <a href="Image/art4.png" target="_blank" rel="noopener">
+            <img src="Image/art4.png" alt="Artwork 4" />
+        </a>
+        <a href="Image/art5.png" target="_blank" rel="noopener">
+            <img src="Image/art5.png" alt="Artwork 5" />
+        </a>
+        <a href="Image/art6.png" target="_blank" rel="noopener">
+            <img src="Image/art6.png" alt="Artwork 6" />
+        </a>
+        <a href="Image/art7.png" target="_blank" rel="noopener">
+            <img src="Image/art7.png" alt="Artwork 7" />
+        </a>
+        <a href="Image/art8.png" target="_blank" rel="noopener">
+            <img src="Image/art8.png" alt="Artwork 8" />
+        </a>
+        <a href="Image/art9.png" target="_blank" rel="noopener">
+            <img src="Image/art9.png" alt="Artwork 9" />
+        </a>
+        <a href="Image/art10.png" target="_blank" rel="noopener">
+            <img src="Image/art10.png" alt="Artwork 10" />
+        </a>
+        </div>
+    </article>
+    </section>
+
+    <section id="contact" class="section-shell contact-section">
+      <p class="section-kicker">Contact</p>
+      <h2>Let’s connect.</h2>
+      <p>Email: <a href="mailto:QinxuanCen@gmail.com">QinxuanCen@gmail.com</a></p>
+      <p>ORCID: <a href="https://orcid.org/0009-0008-0076-3151" target="_blank" rel="noopener">0009-0008-0076-3151</a></p>
+      <p>LinkedIn: <a href="https://www.linkedin.com/in/qinxuan-cen-992b7b402?utm_source=share_via&utm_content=profile&utm_medium=member_android" target="_blank" rel="noopener">Qinxuan Cen</a></p>
+    </section>
+  </main>
 </body>
 </html>
