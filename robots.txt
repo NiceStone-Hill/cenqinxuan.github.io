@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://cenqinxuan.github.io/sitemap.xml
+Sitemap: https://nicestone-hill.github.io/cenqinxuan.github.io/sitemap.xml
