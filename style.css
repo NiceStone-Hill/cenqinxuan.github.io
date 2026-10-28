@@ -142,20 +142,6 @@ a {
   gap: 12px;
 }
 
-.view-counter {
-  display: inline-flex;
-  align-items: center;
-  gap: 4px;
-  padding: 7px 12px;
-  border-radius: 999px;
-  border: 1px solid var(--line);
-  background: var(--surface);
-  color: var(--muted);
-  font-size: 12px;
-  font-weight: 600;
-  white-space: nowrap;
-}
-
 .nav {
   display: flex;
   gap: 14px;
